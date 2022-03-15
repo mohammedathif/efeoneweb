@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include efeoneweb *.css
+recursive-include efeoneweb *.csv
+recursive-include efeoneweb *.html
+recursive-include efeoneweb *.ico
+recursive-include efeoneweb *.js
+recursive-include efeoneweb *.json
+recursive-include efeoneweb *.md
+recursive-include efeoneweb *.png
+recursive-include efeoneweb *.py
+recursive-include efeoneweb *.svg
+recursive-include efeoneweb *.txt
+recursive-exclude efeoneweb *.pyc
